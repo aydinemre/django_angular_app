@@ -4,7 +4,7 @@ from django.views import View
 
 from demo.models import Book
 
-
+"""
 class Another(View):
 
     # books = Book.objects.all()
@@ -20,6 +20,9 @@ class Another(View):
     def get(self, request):
         print(self.output)
         return HttpResponse(self.output)
+"""
+
 
 def first(request):
-    return HttpResponse("First message from views")
+    # return HttpResponse("First message from views")
+    return render(request, 'first_template.html')
