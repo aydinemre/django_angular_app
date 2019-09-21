@@ -372,4 +372,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+*.sqlite3
+
 # End of https://www.gitignore.io/api/macos,python,pycharm,windows,virtualenv,pycharm+all,pycharm+iml
