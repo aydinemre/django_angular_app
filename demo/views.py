@@ -24,5 +24,6 @@ class Another(View):
 
 
 def first(request):
-    # return HttpResponse("First message from views")
-    return render(request, 'first_template.html')
+    books = Book.objects.all()
+    # return HttpResponse("First message from views"
+    return render(request, 'first_template.html', {"books": books})
