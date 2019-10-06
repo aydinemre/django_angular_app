@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from demo.models import Book, BookNumber
+from demo.models import Book, BookNumber, Character
 
 
 # admin.site.register(Book)
@@ -14,3 +14,4 @@ class BookAdmin(admin.ModelAdmin):
 
 
 admin.site.register(BookNumber)
+admin.site.register(Character)
